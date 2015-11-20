@@ -1,3 +1,11 @@
+# NOTICE: This project is no longer actively maintained. AgoraVoting develpoment continues as a modular project http://github.com/agoravoting
+* http://github.com/agoravoting/agora-core-view
+* http://github.com/agoravoting/authapi
+* http://github.com/agoravoting/agora_elections
+* http://github.com/agoravoting/agora-results
+* http://github.com/agoravoting/agora-tally
+* http://github.com/agoravoting/election-orchestra
+
 ### Introduction
 
 [![Build Status](https://api.travis-ci.org/agoraciudadana/agora-ciudadana.png?branch=v2)](https://travis-ci.org/agoraciudadana/agora-ciudadana)

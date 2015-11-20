@@ -1,13 +1,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Adrián Chaves Fernández <adriyetichaves@gmail.com>, 2013.
+# Adrián Chaves Fernández <adriyetichaves@gmail.com>, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-27 07:21+0200\n"
-"PO-Revision-Date: 2013-11-30 17:10+0100\n"
+"POT-Creation-Date: 2014-12-01 09:18+0100\n"
+"PO-Revision-Date: 2014-11-30 00:01+0100\n"
 "Last-Translator: Adrián Chaves Fernández <adriyetichaves@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -43,8 +43,8 @@ msgid "Sign up"
 msgstr "Rexistrarse"
 
 #: accounts/forms.py:84
-#, python-format
-msgid "<a href=\"%(url)s\">Forgot your "
+#, fuzzy, python-format
+msgid "<a href=\"%(url)s\">Forgot your password?</a>"
 msgstr "<a href=\"%(url)s\">Esqueceu o seu "
 
 #: accounts/forms.py:87 accounts/templates/accounts/auth_forms.html:9
@@ -1337,7 +1337,7 @@ msgstr "Mensaxe de %s"
 
 #: agora_core/forms/user.py:161
 msgid "Too large dimensions."
-msgstr ""
+msgstr "O tamaño é excesivo."
 
 #: agora_core/forms/user.py:261 agora_core/forms/user.py:305
 msgid "You need to supply the old password."
@@ -2894,14 +2894,12 @@ msgstr "Ola %(to_email)s."
 #: agora_core/templates/agora_core/emails/join_invitation.html:6
 #, python-format
 msgid ""
-"%(inviter)s has invited you to join him/her at <a href=\"%(protocol)s://"
-"%(site_domain)s%(agora_url)s\">%(agora_fullname)s</a>. Please <a href="
-"\"%(protocol)s://%(site_domain)s%(agora_url)s\">follow this link</a> to "
-"complete your registration and join the agora:"
+"%(inviter)s has invited you to join him/her at <a href=\"%(agora_url)s\">"
+"%(agora_fullname)s</a>. Please <a href=\"%(agora_url)s\">follow this link</"
+"a> to complete your registration and join the agora:"
 msgstr ""
-"%(inviter)s envioulle unha invitación á ágora <a href=\"%(protocol)s://"
-"%(site_domain)s%(agora_url)s\">%(agora_fullname)s</a>. Abra <a href="
-"\"%(protocol)s://%(site_domain)s%(agora_url)s\">esta ligazón</a> para "
+"%(inviter)s envioulle unha invitación á ágora <a href=\"%(agora_url)s\">"
+"%(agora_fullname)s</a>. Abra <a href=\"%(agora_url)s\">esta ligazón</a> para "
 "completar o rexistro e unirse á ágora:"
 
 #: agora_core/templates/agora_core/emails/join_invitation.html:13
